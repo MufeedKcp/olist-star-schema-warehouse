@@ -23,8 +23,8 @@ If you are looking for a project that goes beyond basic "data moving," this is i
 ### 1. Pipeline Execution
 
 
-<p align="center">  
-<img src="C:\Users\biten\OneDrive\Documents\python_learning\olist-ETL-Warehouse\docs/code_success" width="7000">  
+<p align="center">
+  <img src="docs/code_success.png" width="700">
 </p>
 
   
@@ -34,7 +34,7 @@ The pipeline processing ~600,000 rows across 9 tables in under 40 seconds.
 
 
 <p align="center">  
-<img src="C:\Users\biten\OneDrive\Documents\python_learning\olist-ETL-Warehouse\docs/star_schema_architecture" width="7000">  
+<img src="docs/star_schema_architecture" width="7000">  
 </p>
 
   
