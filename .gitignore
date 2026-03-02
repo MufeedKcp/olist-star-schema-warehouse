@@ -1,0 +1,4 @@
+brazil_sales_datasets/
+.env
+*.log
+__pycache__/
