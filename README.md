@@ -34,7 +34,7 @@ The pipeline processing ~600,000 rows across 9 tables in under 40 seconds.
 
 
 <p align="center">  
-  <img src="docs/star_schema_architecture" width="700">  
+  <img src="docs/star_schema_architecture.png" width="700">  
 </p>
 
   
