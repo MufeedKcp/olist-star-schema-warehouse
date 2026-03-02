@@ -9,13 +9,13 @@ Data is useless if it’s disconnected. This project solves the "Data Silo" prob
 **Deep Dive into Engineering Excellence:**  
 If you are looking for a project that goes beyond basic "data moving," this is it. We implement:
 
-- **Idempotent Ingestion:** Pipelines that can be re-run safely without duplicating data using **SQL Upsert (ON CONFLICT)** logic.
+- Pipelines that can be re-run safely without duplicating data using **SQL Upsert (ON CONFLICT)** logic.
 
-- **Star Schema Modeling:** Transforming 3rd-normal form data into **Fact and Dimension tables** for optimized warehouse performance.
+- Transforming 3rd-normal form data into **Fact and Dimension tables** for optimized warehouse performance.
 
-- **Production-Grade Python:** Dictionary-based orchestration, **Bulk Loading** (method='multi'), and **Atomic Transactions** (engine.begin()).
+- Dictionary-based orchestration, **Bulk Loading** (method='multi'), and **Atomic Transactions** (engine.begin()).
 
-- **Data Quality Enforcement:** Handling UTF-8 normalization, **Category-Specific Median Imputation**, and rigid Primary/Foreign key constraints.
+- Handling UTF-8 normalization, **Category-Specific Median Imputation**, and rigid Primary/Foreign key constraints.
 
 
 ---
@@ -38,11 +38,11 @@ The pipeline processing ~600,000 rows across 9 tables in under 40 seconds.
 </p>
 
   
-The architecture of Fact and Dimension tables designed for analytical speed.
+The star schema architecture of Fact and Dimension tables designed for analytical speed.
 
 ---
 
-### User Instructions
+### Use this project:
 
 1. **Clone the Repository:**
 
