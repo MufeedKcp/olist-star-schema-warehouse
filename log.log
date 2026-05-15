@@ -1,0 +1,77 @@
+2026-03-02 21:37:56,212 - INFO - succesfully extracted 99441 rows - root
+2026-03-02 21:37:56,554 - INFO - succesfully extracted 1000163 rows - root
+2026-03-02 21:37:56,711 - INFO - succesfully extracted 112650 rows - root
+2026-03-02 21:37:56,779 - INFO - succesfully extracted 103886 rows - root
+2026-03-02 21:37:56,993 - INFO - succesfully extracted 99441 rows - root
+2026-03-02 21:37:57,033 - INFO - succesfully extracted 32951 rows - root
+2026-03-02 21:37:57,052 - INFO - succesfully extracted 3095 rows - root
+2026-03-02 21:37:57,054 - INFO - succesfully extracted 71 rows - root
+2026-03-02 21:37:57,054 - INFO - Cleaning Order items data....... - root
+2026-03-02 21:37:57,096 - INFO - Order Items cleaned: Prices verified and 'total_item_cost' calculated. Total: 112650 rows. - root
+2026-03-02 21:37:57,097 - INFO - Cleaning Customer data....... - root
+2026-03-02 21:37:57,195 - INFO - Customers cleaned: Zip codes preserved, cities standardized. Total: 99441 rows. - root
+2026-03-02 21:37:57,206 - INFO - Cleaning Product data....... - root
+2026-03-02 21:37:57,225 - WARNING - Product dropped 32877 rows with grouping product_category. Products cleaned: Missing categories set to 'unknown'. Dimensions converted to float. Total: 32951 rows. - root
+2026-03-02 21:37:57,228 - INFO - Cleaning Seller data....... - root
+2026-03-02 21:37:57,231 - INFO - Sellers cleaned: Zip codes cast to string and states standardized. Total: 3095 rows. - root
+2026-03-02 21:43:38,065 - INFO - succesfully extracted 99441 rows - root
+2026-03-02 21:43:38,562 - INFO - succesfully extracted 1000163 rows - root
+2026-03-02 21:43:38,711 - INFO - succesfully extracted 112650 rows - root
+2026-03-02 21:43:38,774 - INFO - succesfully extracted 103886 rows - root
+2026-03-02 21:43:38,997 - INFO - succesfully extracted 99224 rows - root
+2026-03-02 21:43:39,198 - INFO - succesfully extracted 99441 rows - root
+2026-03-02 21:43:39,223 - INFO - succesfully extracted 32951 rows - root
+2026-03-02 21:43:39,226 - INFO - succesfully extracted 3095 rows - root
+2026-03-02 21:43:39,227 - INFO - succesfully extracted 71 rows - root
+2026-03-02 21:43:39,227 - INFO - Cleaning Order items data....... - root
+2026-03-02 21:43:39,269 - INFO - Order Items cleaned: Prices verified and 'total_item_cost' calculated. Total: 112650 rows. - root
+2026-03-02 21:43:39,269 - INFO - Cleaning Customer data....... - root
+2026-03-02 21:43:39,366 - INFO - Customers cleaned: Zip codes preserved, cities standardized. Total: 99441 rows. - root
+2026-03-02 21:43:39,378 - INFO - Cleaning Product data....... - root
+2026-03-02 21:43:39,396 - WARNING - Product dropped 32877 rows with grouping product_category. Products cleaned: Missing categories set to 'unknown'. Dimensions converted to float. Total: 32951 rows. - root
+2026-03-02 21:43:39,400 - INFO - Cleaning Seller data....... - root
+2026-03-02 21:43:39,403 - INFO - Sellers cleaned: Zip codes cast to string and states standardized. Total: 3095 rows. - root
+2026-03-02 21:43:39,404 - INFO - Cleaning Order review data....... - root
+2026-03-02 21:43:39,465 - INFO - Order Reviews cleaned: Missing comments filled with 'No comment'. Total: 98410 rows. - root
+2026-03-02 21:43:39,465 - INFO - Cleaning Geolocation data....... - root
+2026-03-02 21:43:40,089 - WARNING - Geolocation cleaned. Rows reduced from 1000163 to 19015 - root
+2026-03-02 21:43:40,089 - INFO - Cleaning order payment data....... - root
+2026-03-02 21:43:40,097 - INFO - Order Payments cleaned: Payment types lowercased and types cast to float. Total: 103886 rows. - root
+2026-03-02 21:43:40,097 - INFO - Cleaning category name data....... - root
+2026-03-02 21:43:40,097 - INFO - Translations cleaned: Category names normalized for joining. Total: 71 rows. - root
+2026-03-02 21:43:40,098 - INFO - Cleaning Order data....... - root
+2026-03-02 21:43:40,170 - INFO - Orders cleaned: 5 date columns converted to datetime. Total: 99441 rows. - root
+2026-03-02 21:43:40,170 - INFO - Orders: 'delivery_time_days' metric generated. - root
+2026-03-02 21:43:40,799 - INFO - Warehouse modeling complete. Fact table contains 112650 rows. - root
+2026-03-02 21:43:40,862 - INFO - Loading into stage_date... - root
+2026-03-02 21:43:45,931 - INFO - stage_date: 98875 Rows Loaded... - root
+2026-03-02 21:43:45,931 - INFO - stage_date loaded in 5.07 seconds - root
+2026-03-02 21:43:45,932 - INFO - Loading into stage_geolocation... - root
+2026-03-02 21:43:46,775 - INFO - stage_geolocation: 19015 Rows Loaded... - root
+2026-03-02 21:43:46,775 - INFO - stage_geolocation loaded in 0.84 seconds - root
+2026-03-02 21:43:46,775 - INFO - Loading into stage_product_name... - root
+2026-03-02 21:43:46,779 - INFO - stage_product_name: 71 Rows Loaded... - root
+2026-03-02 21:43:46,779 - INFO - stage_product_name loaded in 0.0 seconds - root
+2026-03-02 21:43:46,779 - INFO - Loading into stage_products... - root
+2026-03-02 21:43:49,750 - INFO - stage_products: 32951 Rows Loaded... - root
+2026-03-02 21:43:49,750 - INFO - stage_products loaded in 2.97 seconds - root
+2026-03-02 21:43:49,750 - INFO - Loading into stage_customers... - root
+2026-03-02 21:43:53,767 - INFO - stage_customers: 99441 Rows Loaded... - root
+2026-03-02 21:43:53,768 - INFO - stage_customers loaded in 4.02 seconds - root
+2026-03-02 21:43:53,768 - INFO - Loading into stage_sellers... - root
+2026-03-02 21:43:53,873 - INFO - stage_sellers: 3095 Rows Loaded... - root
+2026-03-02 21:43:53,873 - INFO - stage_sellers loaded in 0.11 seconds - root
+2026-03-02 21:43:53,873 - INFO - Loading into stage_orders... - root
+2026-03-02 21:44:04,577 - INFO - stage_orders: 99441 Rows Loaded... - root
+2026-03-02 21:44:04,577 - INFO - stage_orders loaded in 10.7 seconds - root
+2026-03-02 21:44:04,577 - INFO - Loading into stage_orders_details... - root
+2026-03-02 21:44:10,834 - INFO - stage_orders_details: 98410 Rows Loaded... - root
+2026-03-02 21:44:10,834 - INFO - stage_orders_details loaded in 6.26 seconds - root
+2026-03-02 21:44:10,834 - INFO - Loading into stage_order_payments... - root
+2026-03-02 21:44:15,299 - INFO - stage_order_payments: 103886 Rows Loaded... - root
+2026-03-02 21:44:15,299 - INFO - stage_order_payments loaded in 4.47 seconds - root
+2026-03-02 21:44:15,300 - INFO - Loading into stage_order_items... - root
+2026-03-02 21:44:26,675 - INFO - stage_order_items: 112650 Rows Loaded... - root
+2026-03-02 21:44:26,676 - INFO - stage_order_items loaded in 11.38 seconds - root
+2026-03-02 21:44:26,676 - INFO - TOTAL LOADING TIME: 45.81 seconds - root
+2026-03-02 21:45:06,080 - INFO - ETL PIPELINE SUCCESSFULLY completed and staging table is clean. - root
