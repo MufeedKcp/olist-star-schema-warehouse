@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # E-Commerce Data Warehouse ETL Pipeline
 
 ### Transforming 1M+ rows of fragmented E-commerce data into a high-performance, analytical Star Schema.
@@ -117,7 +116,6 @@ Contributions are what make the open-source community an amazing place to learn.
 If this project helped you understand ETL architecture or provided a template for your own warehouse, consider fueling the next build!
 
 ---
-=======
 # E-Commerce Data Warehouse ETL Pipeline
 
 ### Transforming 1M+ rows of fragmented E-commerce data into a high-performance, analytical Star Schema.
@@ -236,4 +234,3 @@ Contributions are what make the open-source community an amazing place to learn.
 If this project helped you understand ETL architecture or provided a template for your own warehouse, consider fueling the next build!
 
 ---
->>>>>>> 49dedd743cdf9120eee2ae4e8c6de9700e3b8d04
